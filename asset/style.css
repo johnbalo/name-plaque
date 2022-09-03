@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+    background: teal;
+    background-size: cover;
+    font-family: sans-serif;
+    background-image:url('sterling.png');
+   
+}
+
+img{
+width: 100px;
+margin-top: 20px;
+}
+
+.wrapper-plaque {
+    height: 250PX;
+    border-radius: 10px;
+    margin: 200px auto;
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+}
+
+.wrapper-plaque p{
+color: teal;
+text-align: center;
+padding-top:  20px;
+}
+
+.plaque{
+    margin-left: 20%;
+     margin-top: 60px;
+    
+}
+
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+    box-shadow: none !important;
+    border: 2px solid teal !important;
+
+}
+
+label{
+    color: teal;
+}
+
+
+button{
+    border-radius:5px;
+    width: 90px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 150px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    box-shadow:none;
+    box-shadow: none;
+    box-shadow: none !important;
+    border: 2px solid teal !important;
+    
+    
+}
+button:hover{
+    background-color:tomato;
+    color:black;
+}
